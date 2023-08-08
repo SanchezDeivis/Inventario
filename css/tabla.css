@@ -1,0 +1,98 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    overflow-x: auto;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #d4cbcb;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+img {
+    max-width: 100px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.eliminar {
+    color: orange;
+}
+
+.agregar{
+    color: orange; 
+}
+
+.busqueda button {
+    color: orange;
+}
+
+.busqueda h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.busqueda label {
+    font-size: 18px;
+    color: #0572d0;
+    font-weight: bold;
+    position: static;
+}
+
+.busqueda input[type="text"],
+.busqueda input[type="number"],
+.busqueda input[type="password"] {
+    width: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.busqueda input[type="submit"] {
+    background-color: #ff9800;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.busqueda input[type="submit"]:hover {
+    background-color: #ffac33;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+@media (max-width: 768px) {
+
+    .table th,
+    .table td {
+        font-size: 12px;
+    }
+}

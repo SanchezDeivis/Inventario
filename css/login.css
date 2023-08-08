@@ -1,0 +1,129 @@
+/* Estilos generales */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Ajusta los siguientes valores según tus preferencias */
+    background-color: rgba(95, 205, 254);
+    display: flex;
+    background-position: center;
+    position: relative;
+}
+
+.body-overlay {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 20;
+    height: 80px;
+    /* Ajusta la altura de la cinta */
+    background-color: rgba(255, 255, 255, 0.5);
+    /* Ajusta el nivel de transparencia */
+}
+
+/* Estilos para el encabezado */
+h1 {
+    font-size: 35px;
+    color: #0572d0;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #62522b;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el texto de bienvenida */
+p {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 4px;
+}
+
+/* Estilos para el botón */
+button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: rgba(95, 205, 254);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3%;
+}
+
+button:hover {
+    background-color: #0572d0;
+}
+
+/*Estilo contenedor*/
+.container {
+    display: flex;
+    align-items: center;
+    /* Centra verticalmente el contenido */
+    justify-content: center;
+}
+
+.columna {
+    flex: 1;
+    padding: 0px;
+    display: flex;
+    margin-top: 0px;
+    justify-content: center;
+}
+
+.formulario {
+    background-color: #b6e6f1;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.formulario div .formulario h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.formulario label {
+    font-size: 18px;
+    color: #0572d0;
+    font-weight: bold;
+    position: static;
+}
+
+.formulario input[type="text"],
+.formulario input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.formulario input[type="submit"] {
+    background-color: #ff9800;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #ffac33;
+}
+
+

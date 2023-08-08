@@ -1,0 +1,22 @@
+/* Estilos generales */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/Cintafondo.png);
+    /* Ajusta los siguientes valores según tus preferencias */
+    background-color: rgba(95, 205, 254);
+    display: flex;
+    background-position: center;
+    flex-direction: column;
+    position: relative;
+}
